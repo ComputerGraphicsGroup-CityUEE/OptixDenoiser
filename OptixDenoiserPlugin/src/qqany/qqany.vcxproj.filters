@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="g_optix_denoiser.cpp" />
+    <ClCompile Include="..\g_common\g_common.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_common\g_pfm.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\g_common\g_vector.cpp">
+      <Filter>g_common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="g_optix_denoiser.h" />
+    <ClInclude Include="..\g_common\g_common.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_common\g_pfm.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\g_common\g_vector.h">
+      <Filter>g_common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="g_common">
+      <UniqueIdentifier>{18b93f22-d7e9-4115-87ff-3603588f6df5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
